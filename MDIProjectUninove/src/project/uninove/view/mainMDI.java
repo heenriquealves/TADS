@@ -19,7 +19,7 @@ public class mainMDI {
 			public void run() {
 				try {
 					mainMDI window = new mainMDI();
-					window.frame.setVisible(true);
+					window.frame.setVisible(false);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
